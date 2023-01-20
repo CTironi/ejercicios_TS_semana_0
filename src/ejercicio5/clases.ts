@@ -1,3 +1,5 @@
+import { FiguraGeometrica } from "./interface";
+
 abstract class Figura implements FiguraGeometrica {
 
     protected nombre: string;
@@ -47,7 +49,7 @@ class Cuadrado extends Figura {
     }
 }
 
-class CrearFiguras {
+export class CrearFiguras {
 
     crear(nombre: string, tipo: string, valor: number){
 

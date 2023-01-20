@@ -1,3 +1,6 @@
+import { CrearFiguras } from './clases';
+
+
 /*
 
 5. Ejercicio de POO

@@ -1,3 +1,6 @@
+"use strict";
+exports.__esModule = true;
+var clases_1 = require("./clases");
 /*
 
 5. Ejercicio de POO
@@ -34,7 +37,7 @@ imprimir el área y perímetro de cada figura utilizando los métodos de la inte
 "FiguraGeometrica".
 
 */
-var myFigura = new CrearFiguras();
+var myFigura = new clases_1.CrearFiguras();
 var myCirculo = myFigura.crear('myCirculo', 'circulo', 5);
 var myCuadrado = myFigura.crear('myCuadrado', 'cuadrado', 10);
 myCirculo === null || myCirculo === void 0 ? void 0 : myCirculo.calcularArea();
