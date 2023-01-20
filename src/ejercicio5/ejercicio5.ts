@@ -34,3 +34,15 @@ imprimir el área y perímetro de cada figura utilizando los métodos de la inte
 "FiguraGeometrica".
 
 */
+
+
+const myFigura = new CrearFiguras()
+
+const myCirculo = myFigura.crear('myCirculo', 'circulo', 5);
+const myCuadrado = myFigura.crear('myCuadrado', 'cuadrado', 10)
+
+myCirculo?.calcularArea();
+myCirculo?.calcularPerimetro();
+
+myCuadrado?.calcularArea();
+myCuadrado?.calcularPerimetro();
